@@ -1,11 +1,714 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
-</head>
-<body>
-  <h1>Atani Oyinbunua</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atani Oyinbunua - Full Stack Developer Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="container">
+        <div class="navbar-content">
+          <div class="logo">
+            <img src="images/vector-73.svg" alt="logo" />
+            <span class="logo-text">AO</span>
+          </div>
+          <button
+            class="hamburger"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+          <ul class="nav-menu">
+            <li><a href="#about" class="nav-link active">About //</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="nav-decorations">
+            <div class="nav-rect nav-rect-1"></div>
+            <div class="nav-rect nav-rect-2"></div>
+            <div class="nav-rect nav-rect-3"></div>
+            <div class="nav-rect nav-rect-4"></div>
+            <img src="images/line-3-84.svg" alt="line" class="nav-line" />
+            <img src="images/line-4-85.svg" alt="line" class="nav-line" />
+            <img src="images/line-5-86.svg" alt="line" class="nav-line" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="hero-badge">
+              <img src="images/vector-10.svg" alt="star" />
+              <img src="images/vector-11.svg" alt="star" />
+              <img src="images/vector-12.svg" alt="star" />
+              <img src="images/vector-13.svg" alt="star" />
+              <img src="images/vector-14.svg" alt="star" />
+            </div>
+            <div class="hero-heading-wrapper">
+              <div class="hero-highlight"></div>
+              <h1 class="hero-heading">
+                Full Stack Developer building scalable solutions
+              </h1>
+            </div>
+            <div class="hero-actions">
+              <a href="#portfolio" class="btn btn-primary">View Projects</a>
+              <div class="social-icons">
+                <a
+                  href="https://github.com/atanioyinbunua"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <img src="images/vector-22.svg" alt="GitHub" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/atani-oyinbunua-624160233"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <img src="images/vector-23.svg" alt="LinkedIn" />
+                </a>
+                <a href="mailto:oyinbunuaatani@gmail.com" aria-label="Email">
+                  <img src="images/vector-24.svg" alt="Email" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <div class="hero-image-container">
+              <div class="image-border"></div>
+              <img src="images/mypics.jpeg" alt="Atani Oyinbunua" class="hero-image" />
+              <div class="tech-stack-badge">
+                <div class="badge-background"></div>
+                <div class="tech-icons">
+                  <img src="images/fill-1-36.svg" alt="tech" />
+                  <img src="images/fill-3-37.svg" alt="tech" />
+                  <img src="images/fill-5-38.svg" alt="tech" />
+                  <img src="images/fill-7-39.svg" alt="tech" />
+                  <img src="images/fill-9-40.svg" alt="tech" />
+                  <img src="images/fill-11-41.svg" alt="tech" />
+                  <img src="images/fill-13-42.svg" alt="tech" />
+                  <img src="images/fill-15-43.svg" alt="tech" />
+                  <img src="images/fill-17-44.svg" alt="tech" />
+                  <img src="images/fill-22-45.svg" alt="tech" />
+                  <img src="images/fill-24-46.svg" alt="tech" />
+                  <img src="images/fill-26-47.svg" alt="tech" />
+                  <img src="images/fill-19-48.svg" alt="tech" />
+                  <img src="images/fill-28-49.svg" alt="tech" />
+                  <img src="images/fill-31-50.svg" alt="tech" />
+                </div>
+              </div>
+            </div>
+            <img
+              src="images/vector-3-51.svg"
+              alt="decoration"
+              class="hero-decoration-1"
+            />
+            <img
+              src="images/vector-52.svg"
+              alt="decoration"
+              class="hero-decoration-2"
+            />
+            <img
+              src="images/ellipse-8-53.svg"
+              alt="decoration"
+              class="hero-decoration-3"
+            />
+            <img
+              src="images/ellipse-9-54.svg"
+              alt="decoration"
+              class="hero-decoration-4"
+            />
+            <div class="hero-arrows">
+              <img src="images/vector-56.svg" alt="arrow" />
+              <img src="images/vector-57.svg" alt="arrow" />
+              <img src="images/vector-58.svg" alt="arrow" />
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-footer">
+          <div class="scroll-indicator">
+            <img src="images/vector-62.svg" alt="scroll" />
+            <img src="images/vector-63.svg" alt="scroll" />
+          </div>
+          <div class="hero-name">
+            <div class="name-decoration">
+              <img src="images/vector-66.svg" alt="decoration" />
+              <img src="images/vector-67.svg" alt="decoration" />
+              <img src="images/vector-68.svg" alt="decoration" />
+            </div>
+            <p class="name-text">Atani Oyinbunua</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Background decorations -->
+      <img
+        src="images/vector-3.svg"
+        alt="decoration"
+        class="bg-decoration bg-decoration-1"
+      />
+      <img
+        src="images/vector-4.svg"
+        alt="decoration"
+        class="bg-decoration bg-decoration-2"
+      />
+      <img
+        src="images/vector-5.svg"
+        alt="decoration"
+        class="bg-decoration bg-decoration-3"
+      />
+      <img
+        src="images/vector-6.svg"
+        alt="decoration"
+        class="bg-decoration bg-decoration-4"
+      />
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-summary">
+            <p class="about-text">
+              I'm a multi-skilled full-stack developer who thrives at the
+              intersection of creativity and code. With expertise spanning from
+              backend architecture to frontend experiences, I craft digital
+              solutions that don't just work—they make an impact.
+            </p>
+            <p class="about-text">
+              My toolkit includes Python, JavaScript, TypeScript, Django, React,
+              FastAPI, and Next.js. I bring a holistic approach to every
+              project. From enterprise e-commerce platforms to browser
+              extensions used by thousands, I turn innovative ideas into
+              scalable, production-ready applications.
+            </p>
+          </div>
+          <div class="about-details">
+            <div class="detail-item">
+              <strong>Education:</strong> Bachelor of Science, Finance And
+              Banking (Undergraduate)<br />
+              <span class="detail-sub"
+                >University of Port Harcourt, Faculty of Management Sciences
+                (2020 - 2025)</span
+              >
+            </div>
+            <div class="contact-links">
+              <a href="mailto:oyinbunuaatani@gmail.com" class="contact-link">
+                <span>📧</span> oyinbunuaatani@gmail.com
+              </a>
+              <a
+                href="https://www.linkedin.com/in/atani-oyinbunua-624160233"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+              >
+                <span>💼</span> LinkedIn
+              </a>
+              <a
+                href="https://github.com/atanioyinbunua"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+              >
+                <span>💻</span> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="section-decorations">
+          <img src="images/line-7-88.svg" alt="decoration" />
+          <img src="images/line-8-89.svg" alt="decoration" />
+        </div>
+
+        <div class="experience-timeline">
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="experience-icon service-icon-blue">
+                <img src="images/vector-130.svg" alt="Backend Developer" />
+              </div>
+              <div class="experience-title-group">
+                <h3 class="experience-title">Backend Developer</h3>
+                <p class="experience-company">
+                  <a
+                    href="https://hotbuymart.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >HotBuyMart</a
+                  >
+                </p>
+                <p class="experience-period">June 2024 - January 2025</p>
+              </div>
+            </div>
+            <div class="experience-body">
+              <p class="experience-tech">Next.js, Django, TypeScript</p>
+              <p class="experience-description">
+                Built a comprehensive e-commerce platform powered by artificial
+                intelligence to deliver personalized shopping experiences.
+                Developed advanced machine learning algorithms that analyze user
+                behavior in real-time, generating accurate product
+                recommendations that enhance customer engagement and drive
+                conversions. The platform features intelligent automation,
+                seamless authentication flows, interactive dashboards, real-time
+                chat functionality, and comprehensive analytics for both
+                customers and store owners.
+              </p>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="experience-icon service-icon-yellow">
+                <img src="images/vector-103.svg" alt="Backend Developer" />
+              </div>
+              <div class="experience-title-group">
+                <h3 class="experience-title">Backend Developer</h3>
+                <p class="experience-company">
+                  <a
+                    href="https://sleepoffice.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >SleepOffice</a
+                  >
+                </p>
+                <p class="experience-period">January 2024 - June 2024</p>
+              </div>
+            </div>
+            <div class="experience-body">
+              <p class="experience-tech">Django, Django Rest Framework</p>
+              <p class="experience-description">
+                Architected and developed a centralized SaaS platform that
+                streamlines daily clinic operations into a unified system. Built
+                comprehensive features for onboarding medical sites, managing
+                patients and doctors, and orchestrating appointment workflows
+                with multi-level approval systems. Designed role-based
+                dashboards that provide admins, employees, and doctors with
+                contextual actions and real-time insights. Implemented secure
+                JWT authentication, profile-completion gating, and audit-ready
+                APIs to ensure production-grade security and compliance. The
+                platform features a responsive, high-performance UI with
+                quick-action workflows and a powerful global search for instant
+                record retrieval.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools">
+      <div class="container">
+        <div class="tools-decoration">
+          <img src="images/vector-136.svg" alt="decoration" />
+          <img src="images/vector-137.svg" alt="decoration" />
+          <img src="images/vector-138.svg" alt="decoration" />
+        </div>
+        <div class="tools-banner">
+          <div class="tools-list">
+            <span class="tool-name">Python</span>
+            <span class="tool-name">JavaScript</span>
+            <span class="tool-name">TypeScript</span>
+            <span class="tool-name">Django</span>
+            <span class="tool-name">React</span>
+            <span class="tool-name">Next.js</span>
+            <span class="tool-name">FastAPI</span>
+            <span class="tool-name">Docker</span>
+            <span class="tool-name">AWS</span>
+            <span class="tool-name">PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="portfolio-header">
+          <div class="portfolio-badge">
+            <img src="images/vector-208.svg" alt="star" />
+            <img src="images/vector-209.svg" alt="star" />
+            <img src="images/vector-210.svg" alt="star" />
+            <img src="images/vector-211.svg" alt="star" />
+            <img src="images/vector-212.svg" alt="star" />
+          </div>
+          <div class="portfolio-title-wrapper">
+            <h2 class="portfolio-title">My Portfolio</h2>
+            <div class="portfolio-underline">
+              <img src="images/vector-217.svg" alt="underline" />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <div class="portfolio-image-wrapper">
+              <div class="portfolio-border"></div>
+              <img
+                src="images/rectangle-6-153.png"
+                alt="IntelCampus Project"
+                class="portfolio-image"
+              />
+            </div>
+            <div class="portfolio-content">
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">IntelCampus</h3>
+                <p class="portfolio-item-description">
+                  All-in-one cloud-based school management system for digitizing
+                  and automating academic operations
+                </p>
+                <p class="portfolio-tech">In Development</p>
+              </div>
+              <a
+                href="https://intelcampus-fe.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="portfolio-link"
+              >
+                <img src="images/vector-160.svg" alt="view project" />
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-image-wrapper">
+              <div class="portfolio-border"></div>
+              <img
+                src="images/rectangle-6-168.png"
+                alt="X Highlighter Project"
+                class="portfolio-image"
+              />
+            </div>
+            <div class="portfolio-content">
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">X Highlighter</h3>
+                <p class="portfolio-item-description">
+                  Chrome extension that helps users identify and track specific
+                  usernames on X (formerly Twitter)
+                </p>
+                <p class="portfolio-tech">Chrome Extension</p>
+              </div>
+              <a
+                href="https://chromewebstore.google.com/detail/x-highlighterbphnehfodnggpfkblognckpaplacehmm?pli=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="portfolio-link"
+              >
+                <img src="images/vector-175.svg" alt="view project" />
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-image-wrapper">
+              <div class="portfolio-border"></div>
+              <img
+                src="images/rectangle-6-183.png"
+                alt="ParentGuard Project"
+                class="portfolio-image"
+              />
+            </div>
+            <div class="portfolio-content">
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">ParentGuard</h3>
+                <p class="portfolio-item-description">
+                  Chrome extension with integrated dashboard for parents to
+                  monitor and manage child's browsing activity
+                </p>
+                <p class="portfolio-tech">Chrome Extension + Dashboard</p>
+              </div>
+              <a
+                href="https://parentguard-fe.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="portfolio-link"
+              >
+                <img src="images/vector-190.svg" alt="view project" />
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-image-wrapper">
+              <div class="portfolio-border"></div>
+              <img
+                src="images/rectangle-6-198.png"
+                alt="Morse Halloween Generator Project"
+                class="portfolio-image"
+              />
+            </div>
+            <div class="portfolio-content">
+              <div class="portfolio-info">
+                <h3 class="portfolio-item-title">Morse Halloween Generator</h3>
+                <p class="portfolio-item-description">
+                  Crypto community project enabling Morse NFT holders to
+                  customize NFTs with Halloween-themed designs
+                </p>
+                <p class="portfolio-tech">Used by 1,000+ community members</p>
+              </div>
+              <a
+                href="https://morse-halloween.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="portfolio-link"
+              >
+                <img src="images/vector-205.svg" alt="view project" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonials-header">
+          <h2 class="testimonials-title">
+            Here's what my clients are saying about my work
+          </h2>
+          <div class="testimonials-decoration">
+            <img src="images/vector-252.svg" alt="decoration" />
+            <img src="images/vector-253.svg" alt="decoration" />
+            <img src="images/vector-254.svg" alt="decoration" />
+            <img src="images/vector-255.svg" alt="decoration" />
+            <img src="images/vector-256.svg" alt="decoration" />
+            <img src="images/vector-257.svg" alt="decoration" />
+            <img src="images/vector-258.svg" alt="decoration" />
+          </div>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "Design is a bridge that connects everyone and everything"
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="images/ellipse-5-222.svg"
+                alt="Client"
+                class="testimonial-avatar"
+              />
+              <div class="testimonial-info">
+                <p class="testimonial-name">Client First Name</p>
+                <p class="testimonial-role">UX Designer, Company Name</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "Design is a bridge that connects everyone and everything"
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="images/ellipse-7-229.svg"
+                alt="Client"
+                class="testimonial-avatar"
+              />
+              <div class="testimonial-info">
+                <p class="testimonial-name">Client Name</p>
+                <p class="testimonial-role">UX Designer, Company Name</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "Design is a bridge that connects everyone and everything"
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="images/ellipse-6-236.svg"
+                alt="Client"
+                class="testimonial-avatar"
+              />
+              <div class="testimonial-info">
+                <p class="testimonial-name">Client Name</p>
+                <p class="testimonial-role">UX Designer, Company Name</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              "Design is a bridge that connects everyone and everything"
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="images/ellipse-7-243.svg"
+                alt="Client"
+                class="testimonial-avatar"
+              />
+              <div class="testimonial-info">
+                <p class="testimonial-name">Client Name</p>
+                <p class="testimonial-role">UX Designer, Company Name</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <h2 class="contact-title">Let's build something amazing together</h2>
+          <p class="contact-description">
+            I'm always open to discussing new projects, creative ideas, or
+            opportunities to be part of your vision.
+          </p>
+          <div class="contact-actions">
+            <a href="mailto:oyinbunuaatani@gmail.com" class="btn btn-primary"
+              >Get In Touch</a
+            >
+            <div class="contact-social">
+              <a
+                href="https://github.com/atanioyinbunua"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <img src="images/vector-265.svg" alt="GitHub" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/atani-oyinbunua-624160233"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <img src="images/vector-266.svg" alt="LinkedIn" />
+              </a>
+              <a href="mailto:oyinbunuaatani@gmail.com" aria-label="Email">
+                <img src="images/vector-267.svg" alt="Email" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/vector-268.svg"
+        alt="decoration"
+        class="contact-decoration"
+      />
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="images/vector-272.svg" alt="logo" />
+              <span class="footer-logo-text">Atani Oyinbunua</span>
+            </div>
+            <p class="footer-copyright">Full Stack Developer Portfolio 2025</p>
+          </div>
+          <div class="footer-social">
+            <a
+              href="https://github.com/atanioyinbunua"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+            >
+              <img src="images/vector-278.svg" alt="GitHub" />
+              <img src="images/vector-279.svg" alt="GitHub" />
+              <img src="images/vector-280.svg" alt="GitHub" />
+              <img src="images/vector-281.svg" alt="GitHub" />
+              <img src="images/vector-282.svg" alt="GitHub" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/atani-oyinbunua-624160233"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+            >
+              <img src="images/vector-284.svg" alt="LinkedIn" />
+            </a>
+            <a href="mailto:oyinbunuaatani@gmail.com" class="social-link">
+              <img src="images/vector-286.svg" alt="Email" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Hamburger menu toggle
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
+      const body = document.body;
+
+      function toggleMenu() {
+        const isExpanded = hamburger.getAttribute("aria-expanded") === "true";
+        hamburger.setAttribute("aria-expanded", !isExpanded);
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+        body.classList.toggle("menu-open");
+      }
+
+      function closeMenu() {
+        hamburger.setAttribute("aria-expanded", "false");
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+        body.classList.remove("menu-open");
+      }
+
+      hamburger.addEventListener("click", toggleMenu);
+
+      // Close menu when clicking on a link
+      const navLinks = document.querySelectorAll(".nav-link");
+      navLinks.forEach((link) => {
+        link.addEventListener("click", closeMenu);
+      });
+
+      // Close menu when clicking outside (on overlay)
+      document.addEventListener("click", (e) => {
+        if (
+          navMenu.classList.contains("active") &&
+          !navMenu.contains(e.target) &&
+          !hamburger.contains(e.target)
+        ) {
+          closeMenu();
+        }
+      });
+
+      // Prevent body scroll when menu is open
+      const observer = new MutationObserver(() => {
+        if (body.classList.contains("menu-open")) {
+          body.style.overflow = "hidden";
+        } else {
+          body.style.overflow = "";
+        }
+      });
+
+      observer.observe(body, { attributes: true, attributeFilter: ["class"] });
+    </script>
+  </body>
 </html>
