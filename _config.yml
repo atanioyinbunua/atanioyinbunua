@@ -1,0 +1,36 @@
+
+title: "Atani Oyinbunua - Full Stack Developer Portfolio"
+description: "Full Stack Developer building scalable solutions with Python, JavaScript, TypeScript, Django, React, and Next.js"
+url: "https://atanioyinbunua.com"
+baseurl: ""
+
+permalink: /:title
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - package.json
+  - node_modules
+  - .git
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+
+include:
+  - "*.html"
+  - "projects/*.html"
+  - "assets/**/*"
+  - "public/**/*"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null
