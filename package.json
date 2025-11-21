@@ -1,0 +1,7 @@
+{
+  "name": "eroghene-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portfolio website for Eroghene Atani - Pure HTML, CSS, and JavaScript",
+  "type": "module"
+}
