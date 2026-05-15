@@ -1,0 +1,141 @@
+---
+permalink: /guides
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="/public/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/public/favicon.png" />
+    <link rel="apple-touch-icon" href="/public/favicon.png" />
+
+    <title>Guides and Notes - Atani Oyinbunua</title>
+    <meta
+      name="description"
+      content="Useful articles, quick notes, and practical guides collected by Atani Oyinbunua."
+    />
+    <meta
+      name="keywords"
+      content="Atani Oyinbunua, guides, notes, useful articles, function key, keyboard shortcuts"
+    />
+    <meta name="author" content="Atani Oyinbunua" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://atanioyinbunua.com/guides" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://atanioyinbunua.com/guides" />
+    <meta property="og:title" content="Guides and Notes - Atani Oyinbunua" />
+    <meta
+      property="og:description"
+      content="Useful articles, quick notes, and practical guides collected by Atani Oyinbunua."
+    />
+    <meta
+      property="og:image"
+      content="https://atanioyinbunua.com/assets/mypics.jpeg"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Guides and Notes - Atani Oyinbunua" />
+    <meta
+      name="twitter:description"
+      content="Useful articles, quick notes, and practical guides collected by Atani Oyinbunua."
+    />
+    <meta
+      name="twitter:image"
+      content="https://atanioyinbunua.com/assets/mypics.jpeg"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav id="navigation" class="nav">
+      <div class="nav-overlay" id="nav-overlay"></div>
+      <div class="nav-container">
+        <div class="nav-content">
+          <a href="/" class="nav-logo">AO</a>
+
+          <button
+            class="nav-toggle"
+            id="nav-toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+          >
+            <span class="nav-toggle-icon"></span>
+            <span class="nav-toggle-icon"></span>
+            <span class="nav-toggle-icon"></span>
+          </button>
+
+          <div class="nav-links" id="nav-links">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/about" class="nav-link">About</a>
+            <a href="/guides" class="nav-link">Guides</a>
+            <a href="/#experience" class="nav-link">Experience</a>
+            <a href="/#projects" class="nav-link">Projects</a>
+            <a href="/#contact" class="nav-link">Contact</a>
+            <a href="https://blog.atanioyinbunua.com/" class="nav-link">Blog</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="guides-main">
+      <div class="guides-container">
+        <header class="guides-header">
+          <p class="guides-kicker">Useful articles, notes, and fixes</p>
+          <h1 class="guides-title">Guides <span class="text-accent">and Notes</span></h1>
+          <p class="guides-intro">
+            A small place for practical things worth keeping: shortcuts,
+            technical notes, quick fixes, and useful references.
+          </p>
+        </header>
+
+        <section class="notes-list" aria-label="Guides and notes">
+          <article class="note-card" id="turn-off-function-key">
+            <div class="note-card-header">
+              <span class="note-category">Keyboard shortcut</span>
+              <span class="note-date">May 15, 2026</span>
+            </div>
+            <h2 class="note-title">How to Turn Off the Function Key</h2>
+            <p class="note-summary">
+              On many keyboards, you can toggle the function key lock by
+              pressing these keys together:
+            </p>
+            <div class="shortcut-row" aria-label="Function key shortcut">
+              <kbd>Fn</kbd>
+              <span>+</span>
+              <kbd>Shift</kbd>
+            </div>
+            <p class="note-body">
+              Press <strong>Fn</strong> and <strong>Shift</strong> at the same
+              time. This can switch the top-row keys between normal function-key
+              behavior and media/shortcut behavior, depending on the keyboard or
+              laptop model.
+            </p>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="footer-text">Full Stack Developer Portfolio 2025</p>
+        <p class="footer-copyright">
+          &copy; <span id="current-year"></span> Atani Oyinbunua. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
