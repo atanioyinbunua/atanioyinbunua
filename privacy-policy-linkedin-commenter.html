@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - LinkedIn Commenter &amp; Messager Chrome Extension</title>
+    <link rel="icon" type="image/png" href="/public/favicon.png" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <meta name="description" content="Privacy Policy for the LinkedIn Commenter & Messager Chrome Extension by Atani Oyinbunua. Learn how your API key and data are handled." />
+    <meta name="robots" content="index, follow" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navigation" class="nav">
+      <div class="nav-overlay" id="nav-overlay"></div>
+      <div class="nav-container">
+        <div class="nav-content">
+          <a href="/" class="nav-logo">AO</a>
+          <div class="nav-links" id="nav-links">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/about" class="nav-link">About</a>
+            <a href="/guides" class="nav-link">Guides</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="https://blog.atanioyinbunua.com/" class="nav-link">Blog</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Privacy Policy Section -->
+    <section class="privacy-policy">
+      <div class="container" style="max-width: 900px; margin: 0 auto; padding: 2rem;">
+        <h1 class="section-title">Privacy Policy</h1>
+        <p class="section-description">
+          Last updated: July 12, 2026
+        </p>
+
+        <p>
+          Atani Oyinbunua ("we", "our", or "us") values your privacy. This Privacy Policy explains how the <strong>LinkedIn Commenter &amp; Messager</strong> Chrome extension (the "Extension") handles information when you use it.
+        </p>
+
+        <h2>Summary</h2>
+        <p>
+          The Extension does not have a backend. We do not run any server that collects, stores, or receives your data. Everything the Extension needs stays on your own computer, except for the requests it makes directly to the AI provider you choose (OpenAI or Google Gemini) using your own API key.
+        </p>
+
+        <h2>Information the Extension Handles</h2>
+        <p>
+          The Extension works with the following information, all of which is stored locally in your browser using Chrome's <code>storage</code> API:
+        </p>
+        <ul>
+          <li><strong>Your API key.</strong> The OpenAI or Google Gemini API key you paste into the Extension's popup. It is saved locally on your device and is only used to call your chosen AI provider.</li>
+          <li><strong>Your custom prompt instructions.</strong> The optional comment and message style instructions you enter in the popup. Saved locally so you do not have to re-enter them.</li>
+          <li><strong>LinkedIn post and message text.</strong> When you click Generate, the Extension reads the visible text of the post or message thread you are on so the AI can produce a relevant draft. This text is sent directly from your browser to the AI provider you chose. It is not sent to us or any third party.</li>
+        </ul>
+
+        <h2>Information We Do Not Collect</h2>
+        <ul>
+          <li>We do not collect your name, email address, LinkedIn profile, or contacts.</li>
+          <li>We do not collect analytics, usage data, or telemetry of any kind.</li>
+          <li>We do not use cookies or tracking pixels.</li>
+          <li>We do not sell, rent, share, or trade your data with anyone.</li>
+        </ul>
+
+        <h2>Third-Party AI Providers</h2>
+        <p>
+          The Extension calls the AI provider you choose (OpenAI or Google Gemini) using your own API key. When you generate a comment or message, the relevant LinkedIn post or conversation text and your custom prompt instructions are sent to that provider so it can return a draft. Your use of these providers is governed by their own terms and privacy policies:
+        </p>
+        <ul>
+          <li>OpenAI Privacy Policy: <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">https://openai.com/policies/privacy-policy</a></li>
+          <li>Google Gemini API Privacy Notice: <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">https://ai.google.dev/gemini-api/terms</a></li>
+        </ul>
+        <p>
+          We have no visibility into or control over what these providers do with the requests you send them.
+        </p>
+
+        <h2>Permissions the Extension Requests</h2>
+        <ul>
+          <li><strong>storage</strong> - to save your API key and prompt preferences locally on your device.</li>
+          <li><strong>Access to linkedin.com</strong> - so the Extension can read the post or message you are viewing and insert the generated draft into the correct input field. The Extension only runs on LinkedIn.</li>
+        </ul>
+
+        <h2>Data Security</h2>
+        <p>
+          Because the Extension has no backend, your API key and prompt settings never leave your device except when used to make a request to your chosen AI provider over HTTPS. We take reasonable care in how the Extension handles this information, but no method of transmission over the internet is 100% secure.
+        </p>
+
+        <h2>Your Choices</h2>
+        <p>
+          You can remove all data stored by the Extension at any time by uninstalling it from Chrome, or by clearing the API key and prompt fields in the popup. Uninstalling the Extension deletes everything it stored on your device.
+        </p>
+
+        <h2>Children's Privacy</h2>
+        <p>
+          The Extension is not intended for use by children under 13 years old. We do not knowingly collect personal information from children.
+        </p>
+
+        <h2>Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. Updates will be posted on this page with a new "Last updated" date. Please review it periodically.
+        </p>
+
+        <h2>Contact Us</h2>
+        <p>
+          If you have any questions about this Privacy Policy, please contact us at
+          <a href="mailto:oyinbunuaatani@gmail.com">oyinbunuaatani@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+
+    <script>
+      var yearEl = document.getElementById("current-year");
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+    </script>
+  </body>
+</html>
